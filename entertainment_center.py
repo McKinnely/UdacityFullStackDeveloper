@@ -24,3 +24,5 @@ print(ifWorked)
 movies = [toy_story, avatar, the_internship, ratatouille, midnight_in_paris, hunger_games]
 
 fresh_tomatoes.open_movies_page(movies)
+
+#print(media.Movie.valid_ratings)
