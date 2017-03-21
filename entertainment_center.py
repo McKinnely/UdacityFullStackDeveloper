@@ -1,7 +1,15 @@
+#********Project: Movie Trailer Website**************
+#                                                   *                                             
+#   Software Engineer: McKinnely Bentley            *
+#   Project: Movie Trailer                          *
+#   Inputs:  The input are hard coded in.           *
+#   Outputs: Outputs data based on specs given      *
+#   in the Udacity specification doc.               *
+#                                                   *
+#****************************************************
+
 import media
 import fresh_tomatoes
-
-ifWorked = "It Works..."
 
 
 toy_story = media.Movie("Toy Story", "Toy Story is an awseome movie!", "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
@@ -17,15 +25,6 @@ midnight_in_paris = media.Movie("Midnight In Paris", "Gil Pender (Owen Wilson) i
 hunger_games = media.Movie("Hunger Games", "A movie about survival.", "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg", "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
 
-
-print(the_internship.storyline)
-
-print(ifWorked)
-
 movies = [toy_story, avatar, the_internship, ratatouille, midnight_in_paris, hunger_games]
 
 fresh_tomatoes.open_movies_page(movies)
-
-print(media.Movie.VALID_RATINGS)
-
-print(media.Movie.__doc__)
