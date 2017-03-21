@@ -3,6 +3,7 @@ import fresh_tomatoes
 
 ifWorked = "It Works..."
 
+
 toy_story = media.Movie("Toy Story", "Toy Story is an awseome movie!", "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 avatar = media.Movie("Avatar", "A marine on an alien planet.", "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
@@ -17,7 +18,7 @@ hunger_games = media.Movie("Hunger Games", "A movie about survival.", "https://u
 
 
 
-#printt (the_internship.storyline)
+print(the_internship.storyline)
 
 print(ifWorked)
 
@@ -25,4 +26,4 @@ movies = [toy_story, avatar, the_internship, ratatouille, midnight_in_paris, hun
 
 fresh_tomatoes.open_movies_page(movies)
 
-#print(media.Movie.valid_ratings)
+print(media.Movie.VALID_RATINGS)
