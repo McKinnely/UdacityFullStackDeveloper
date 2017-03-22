@@ -25,7 +25,7 @@ the_internship = media.Movie("The Internship", "A movie about two regular guys g
 
 ratatouille = media.Movie("Ratatouille", "A movie about a cooking mouse.", "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg", "https://www.youtube.com/watch?v=ALUmKa_mpik")
 
-midnight_in_paris = media.Movie("Midnight In Paris", "Gil Pender (Owen Wilson) is a screenwriter and aspiring novelist. Vacationing in Paris with his fiancee (Rachel McAdams), he has taken to touring the city alone.", "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg", "https://www.youtube.com/watch?v=FAfR8omt-CY")
+midnight_in_paris = media.Movie("Midnight In Paris", "A movie about vacationing in Paris.", "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg", "https://www.youtube.com/watch?v=FAfR8omt-CY")
 
 hunger_games = media.Movie("Hunger Games", "A movie about survival.", "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg", "https://www.youtube.com/watch?v=4S9a5V9ODuY")
 
