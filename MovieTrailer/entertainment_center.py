@@ -17,7 +17,10 @@ import fresh_tomatoes
  
 
 # The below variables allows for the data to be sent to the media file and then to be parsed by the Movie class constructor.
-toy_story = media.Movie("Toy Story", "Toy Story is an awseome movie!", "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+toy_story = media.Movie("Toy Story", 
+    "Toy Story is an awseome movie!", 
+    "https://upload.wikimedia.org/wikipedia/en/6/69/Toy_Story_3_poster.jpg", 
+    "https://www.youtube.com/watch?v=KYz2wyBy3kc")
 
 avatar = media.Movie("Avatar", "A marine on an alien planet.", "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg", "https://www.youtube.com/watch?v=cRdxXPV9GNQ")
 
