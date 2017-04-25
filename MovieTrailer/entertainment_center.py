@@ -16,6 +16,7 @@
 import media
 import fresh_tomatoes
  
+print "working"
 
 # The below variables allows for the data to be sent to the 
 # media file and then to be parsed by the Movie class constructor.
